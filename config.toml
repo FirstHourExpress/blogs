@@ -1,0 +1,4 @@
+baseURL = "https://pflashgary.github.io/FirstHourExpress/posts"
+languageCode = "en-us"
+title = "FirstHour Learnings"
+theme = 'ananke'
