@@ -1,5 +1,8 @@
-# Examples
+# [Examples](https://github.com/FirstHourExpress/learnings/tree/main/introduction)
 
+I thought, it can be helpful to first provide simple examples that illustrate some of the concepts used in [Serilized Gantt Chart](https://github.com/FirstHourExpress/learnings/tree/main/gantt-chart).
+
+This blog post assumes a basic understanding of the Rust programming language, including its syntax and fundamental concepts. It is not intended as a beginner's tutorial, but rather as an exploration of more advanced topics. In this post, I will explain how I structured my code using Rust's struct and trait features. I will also introduce the main data structure used in the example code, the HashMap, and cover how to use various operators on a HashMap. Additionally, I will demonstrate how recursive functions can be used to create a graph of feature/subfeatures in [Serilized Gantt Chart](https://github.com/FirstHourExpress/learnings/tree/main/gantt-chart).
 
 ## Structs and Traits
 
@@ -223,3 +226,31 @@ fn main() {
 ```
 
 The `filter_map` method applies a transformation to each element in the iterator and then filters the results based on whether the transformation returns `Some `or `None`. In this case, we transform each (key, value) pair into a tuple of the form (`uppercase_name`, `requirement`) where `uppercase_name` is the uppercase version of the requirement's name. We only keep the transformed pairs where the version number is greater than or equal to "1.0".
+
+## Recursive functions
+
+A recursive function calls itself with a modified input until a certain condition is met, called the base case.
+
+```rust
+fn factorial(n: u64) -> u64 {
+    if n <= 1 {
+        1
+    } else {
+        n * factorial(n - 1)
+    }
+}
+
+fn main() {
+    let result = factorial(5);
+    println!("{}", result); // Output: 120
+}
+```
+
+For example, the `factorial` function takes an unsigned 64-bit integer as input and returns the factorial of that integer. If the input is 0 or 1, the function returns 1, since the factorial of 0 and 1 is 1. Otherwise, it computes the factorial of n by recursively computing the factorial of n-1 and multiplying the result by n.
+
+
+## Run examples
+
+```sh
+cargo run --example <example> # structs_traits, generics, errors, filter, recursive
+```
