@@ -1,3 +1,9 @@
+---
+title: "Introduction"
+date: 2023-02-17T10:55:21+01:00
+draft: true
+---
+
 # [Introduction](https://github.com/FirstHourExpress/learnings/tree/main/introduction)
 
 I thought, it can be helpful to first provide simple examples that illustrate some of the concepts used in [Serilized Gantt Chart](https://github.com/FirstHourExpress/learnings/tree/main/gantt-chart).
