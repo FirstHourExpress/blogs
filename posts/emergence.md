@@ -130,5 +130,3 @@ The `gs` dataframe has columns for latitude, longitude, crop ID, planting date, 
 | ...      | ...       | ...        | ...          | ...      |
 
 The `soil` dataframe has columns for latitude, longitude, date, soil moisture, and soil temperature. It is generated using the `createSoilDF()` function in the `Simulator` object, which takes in a `gsDF` (generated using `createGSDF()`) and generates a cross join with a sequence of dates between the start and end dates passed in. The `soilMoisture` and `soilTemp` columns are then generated using the `rand()` function from the `functions` module of `spark.sql`. The resulting dataframe has a row for every combination of latitude, longitude, and date.
-
-
