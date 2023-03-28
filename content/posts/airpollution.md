@@ -1,7 +1,7 @@
 ---
 title: "Air Pollution Monitoring"
 date: 2023-02-17T10:55:52+01:00
-draft: true
+draft: false
 ---
 # [Real time air pollution monitoring](https://github.com/pflashgary/air_pollution_three_hourly)
 In this project, we aim to provide a real-time view of air quality in different cities of Belgium by tapping into the openaq dataset. Our goal is to ingest and process the data from the SNS topic, calculate the average of measurements over the last 3 hours, and store the results in a database. Additionally, we would like to visualize the data.

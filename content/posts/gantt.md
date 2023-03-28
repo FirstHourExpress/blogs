@@ -1,7 +1,7 @@
 ---
 title: "Gantt"
 date: 2023-02-17T10:55:52+01:00
-draft: true
+draft: false
 ---
 
 # [Serilized Gantt Chart](https://github.com/FirstHourExpress/learnings/tree/main/gantt-chart)
