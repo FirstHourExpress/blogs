@@ -1,4 +1,10 @@
-# Introduction
+---
+title: "Crop Emergence Rate"
+date: 2023-02-17T10:55:52+01:00
+draft: true
+---
+
+# [Simulating Crop Emergence Rate with Spark and Scala](https://github.com/FirstHourExpress/learnings/tree/main/spark-digital-farming)
 I created a contrived example where the goal is to calculate the average values of soil moisture and soil temp
 within a specific time interval, namely the period between planting date and emergence date, for each cropID.
 

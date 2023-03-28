@@ -2,3 +2,5 @@ baseURL = "https://FirstHourExpress.github.io/blogs"
 languageCode = "en-us"
 title = "FirstHour Learnings"
 theme = 'ananke'
+paginate = 10
+paginatePath = "page"
