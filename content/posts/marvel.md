@@ -115,7 +115,7 @@ sorted_characters_to_comic_count = sorted(characters_to_comic_count, key = lambd
 
 The logs look like:
 
-![Logs](/logs.png)
+![Logs](logs.png)
 
 The output looks like:
 
