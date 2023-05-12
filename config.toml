@@ -1,3 +1,4 @@
+staticDir = ['static']
 baseURL = "https://FirstHourExpress.github.io/blogs"
 languageCode = "en-us"
 title = "FirstHour Learnings"

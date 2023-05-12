@@ -1,11 +1,9 @@
 ---
 title: "Marvel API"
-date: 2023-05-12T10:55:21+01:00
-draft: true
+date: 2023-02-17T10:55:21+01:00
+draft: false
 ---
-
-
-# Marvel API Data Collection
+# [Marvel API Data Collection](https://github.com/pflashgary/marvel)
 The task requires the use of the Marvel API to collect data on Marvel characters and the number of comics in which they appear.
 
 ## MarvelService library
@@ -117,7 +115,7 @@ sorted_characters_to_comic_count = sorted(characters_to_comic_count, key = lambd
 
 The logs look like:
 
-![Logs](/static/logs.png)
+![Logs](/logs.png)
 
 The output looks like:
 
